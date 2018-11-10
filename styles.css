@@ -1,0 +1,89 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+    background: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.align-center {
+    text-align: center;
+}
+
+h1 {
+    padding-left: 10%;
+    margin-top: 40px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+#spanny-boi {
+    display: block;
+    margin-left: 40px;
+}
+
+del {
+    text-decoration-color: red;
+  }
+  
+  ins {
+    text-decoration: none;
+    font-family: 'Caveat', cursive;
+    font-size: 1.5em;
+    color: red;
+    position:absolute;
+    transform:rotate(-10deg);
+    margin-left: -20px;
+    margin-top: -40px;
+  }
+
+#mate-container {
+    display: block;
+    padding: 10px 5px;
+}
+
+#mate-container * {
+    display: inline-block;
+}
+
+#inputs-container {
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    width: 80%;
+}
+
+textarea {
+    resize: none;
+    border-radius: 10px;
+    border: 1px solid #e4e4e4;
+    padding: 5px 15px;
+    font-size: 16px;
+    min-width: 300px;
+    min-height: 200px;
+    width: 45%;    
+}
+
+input {
+    display: block;
+}
+
+input:active {
+    transform: translate(2px, 2px);
+}
+
+.btn {
+    border: 1px solid #e4e4e4;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 15px 25px;
+    background: inherit;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+
+#translations-container {
+    margin-left: 10%;
+}
